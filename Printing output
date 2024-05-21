@@ -1,0 +1,37 @@
+let a = 3;
+let b = 5;
+let c;
+
+let math = `
+let a = 3;
+let b = 5;
+let c;
+--------------
+a + b =  ${a + b}\n
+a - b =  ${a - b}\n 
+a * b =  ${a * b}\n 
+a / b =  ${a / b}\n 
+a % b =  ${a % b}\n 
+a += b = ${a += b}\n
+a -= b =  ${a -= b}\n 
+a *= b =  ${a *= b}\n 
+a /= b =  ${a /= b}\n
+a %= b =  ${a %= b}\n 
+a == b = ${a == b}\n
+a != b =  ${a != b}\n 
+a > b =  ${a > b}\n 
+a < b =  ${a < b}\n 
+!a && !c = ${!a && !c}\n
+!a || !c = ${!a || !c}`;
+
+console.log(math)
+
+
+
+let first_name = "Akshita";
+let last_name = "Rana";
+let email = "rana0090@algonquinlive.com";
+
+let myself = `My name is ${first_name} ${last_name}. You can contact me at ${email}.`;
+
+console.log(myself)  
